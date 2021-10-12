@@ -1,7 +1,0 @@
-README.md
-setup.py
-candinfo.py.egg-info/PKG-INFO
-candinfo.py.egg-info/SOURCES.txt
-candinfo.py.egg-info/dependency_links.txt
-candinfo.py.egg-info/requires.txt
-candinfo.py.egg-info/top_level.txt
