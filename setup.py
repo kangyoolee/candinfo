@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
-setup(name='candinfo.py',
-    version='1.0.0',
+setup(name='candinfo',
+    version='1.0.0a',
     url='https://github.com/kangyoolee/candinfo.py',
     author='kangyoolee',
     author_email='me@kangyoo.kr',
