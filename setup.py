@@ -2,12 +2,14 @@ import setuptools
 
 setuptools.setup(
     name="candinfo",
-    version="1.0.0c",
+    packages = ['candinfo'],
+    version="1.0.1",
     license='MIT',
     author="kangyoolee",
     author_email="me@kangyoo.kr",
     description="Korea Candidate Unofficial API Wrapper",
     url="https://github.com/kangyoolee/candinfo",
+    download_url = 'https://github.com/kangyoolee/candinfo/',
     long_description=open('README.md').read(), 
     install_requires=['requests','xmltodict'],
     classifiers=[
