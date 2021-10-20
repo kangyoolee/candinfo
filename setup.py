@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="candinfo",
-    version="1.0.0a",
+    version="1.0.0b",
     license='MIT',
     author="kangyoolee",
     author_email="me@kangyoo.kr",
