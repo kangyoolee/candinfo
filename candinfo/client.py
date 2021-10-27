@@ -75,7 +75,7 @@ class Code:
                 f"{self.BASE_URL}/getCommonSgCodeList?serviceKey={self.key}&pageNo={page}&numOfRows={number}"
             ).text
             jsonData = json.loads(json.dumps(xmltodict.parse(response)))
-            return jsonData["response"]["body"]["items"]["item"]
+            return jsonData
         except:
             return jsonData["result"]
 
